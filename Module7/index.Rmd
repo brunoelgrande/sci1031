@@ -1331,7 +1331,7 @@ distance_lapoc_rimou
 
 <br>
  
-La distance calculée est de `r as.integer(distance_lapoc_rimou[1])`&nbsp;m, soit environ `as.integer(round(distance_lapoc_rimou[1]/1000))` km. Notez que nous avons calculé la distance géométrique et non la distance que l'odomètre d'une voiture calculerait en voyageant sur l'autoroute entre La Pocatière et Rimouski. 
+La distance calculée est de `r as.integer(distance_lapoc_rimou[1])`&nbsp;m, soit environ `r as.integer(round(distance_lapoc_rimou[1]/1000))` km. Notez que nous avons calculé la distance géométrique et non la distance que l'odomètre d'une voiture calculerait en voyageant sur l'autoroute entre La Pocatière et Rimouski. 
 
 Observez que la fonction `st_distance()` retourne aussi l'unité de mesure, ici des mètres. En effet, l'objet retourné par cette fonction est de classe `units`&nbsp;:
 
